@@ -1,0 +1,25 @@
+
+    <form>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="modelInput">Model</label>
+                <input type="text" class="form-control" id="modelInput" placeholder="Model" [(ngModel)]="cars.model" [ngModelOptions]="{ standalone: true }" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="brandInput">Brand</label>
+                <input type="text" class="form-control" id="brandInput" placeholder="Brand" [(ngModel)]="cars.brand" [ngModelOptions]="{ standalone: true }" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="col-md-12 mb-3">
+                <label for="yearInput">Year</label>
+                <input type="text" class="form-control" id="yearInput" placeholder="Year" [(ngModel)]="cars.year" [ngModelOptions]="{ standalone: true }" required>
+            </div>
+        </div>
+        <button class="btn btn-primary" (click)="onSubmit()">Save</button>
+    </form>
+    
+
+

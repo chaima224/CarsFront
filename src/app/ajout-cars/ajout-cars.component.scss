@@ -1,0 +1,34 @@
+/* Styles personnalisés pour le formulaire Bootstrap */
+/* Modifier la couleur de fond des champs de saisie */
+.form-control {
+    background-color: #f8f9fa;
+}
+
+/* Modifier la couleur de fond des champs de saisie lorsqu'ils sont en focus */
+.form-control:focus {
+    background-color: #e9ecef;
+}
+
+/* Modifier la couleur du texte des étiquettes */
+.form-control-label {
+    color: #007bff; /* Bleu Bootstrap */
+}
+
+/* Modifier la couleur du texte des boutons */
+.btn {
+    color: #fff; /* Texte blanc */
+}
+
+/* Modifier la couleur de fond des boutons */
+.btn-primary {
+    background-color: #007bff; /* Bleu Bootstrap */
+    border-color: #007bff; /* Couleur de la bordure */
+    margin-top: 30px;
+}
+
+/* Modifier la couleur de fond des boutons lorsqu'ils sont survolés */
+.btn-primary:hover {
+    background-color: #0056b3; /* Bleu foncé Bootstrap */
+    border-color: #0056b3; /* Couleur de la bordure */
+}
+
